@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #1E88E5 
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    background: var(--primary-color);
+}
+
+.container{
+    width: 600px;
+    background: #F9FBFD;
+    padding: 50px;
+    color: #333C40;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    justify-content: center;
+}
+
+.tabuleiro{
+    margin: 50px auto;
+}
+
+.btn{
+    width: 70px;
+    height: 70px;
+    border: none;
+    margin: none;
+    background-color: #6AB7CC ;
+}
